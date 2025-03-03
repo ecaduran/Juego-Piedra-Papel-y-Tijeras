@@ -51,7 +51,7 @@ function updateUI(result, playerChoice, computerChoice) {
   scoreElement.textContent = `Puntuación: Jugador ${playerScore} - Computadora ${computerScore}`;
 
   resultElement.classList.remove("show");
-  void resultElement.offsetWidth; // Reinicia la animación
+  void resultElement.offsetWidth;
   resultElement.classList.add("show");
 }
 
